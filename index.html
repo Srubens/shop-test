@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ecommerce</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">SHOPPING</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="./cart.html"><i class="fa fa-shopping-cart"></i> <span data-js="miniCart" >0</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid">
+	<div class="row m-auto">
+
+		<div class="card product-item" data-js="product-item" >
+			<img src="./images/camisa-azul.jpg" class="card-img-top product-img" alt="">
+			<div class="card-body product-head">
+				<h1>Camisa Azul Personalizada</h1>
+				<p>R$ 32,00</p>
+				<a href="#" class="btn btn-primary" title="adicionar ao carrinho" data-js="add-cart">add to card</a>
+				<a href="#" class="btn btn-outline-info">preview</a>
+			</div>
+		</div>
+
+		<div class="card product-item" data-js="product-item" >
+			<img src="./images/camisa-cinza.jpg" class="card-img-top product-img" alt="">
+			<div class="card-body product-head">
+				<h1>Camisa Cinza Personalizada</h1>
+				<p>R$ 30,00</p>
+				<a href="#" class="btn btn-primary" title="adicionar ao carrinho" data-js="add-cart">add to card</a>
+				<a href="#" class="btn btn-outline-info">preview</a>
+			</div>
+		</div>
+
+		<div class="card product-item" data-js="product-item" >
+			<img src="./images/moleton-vermelho.jpg" class="card-img-top product-img" alt="">
+			<div class="card-body product-head">
+				<h1>Moleton Vermelho Personalizado</h1>
+				<p>R$ 52,00</p>
+				<a href="#" class="btn btn-primary" title="adicionar ao carrinho" data-js="add-cart">add to card</a>
+				<a href="#" class="btn btn-outline-info">preview</a>
+			</div>
+		</div>
+
+		<div class="card product-item" data-js="product-item" >
+			<img src="./images/moleton-preto.jpg" class="card-img-top product-img" alt="">
+			<div class="card-body product-head">
+				<h1>Moleton Preto Personalizado</h1>
+				<p>R$ 50,00</p>
+				<a href="#" class="btn btn-primary" title="adicionar ao carrinho" data-js="add-cart">add to card</a>
+				<a href="#" class="btn btn-outline-info">preview</a>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="./assets/js/main.js"></script>	
+</body>
+</html>
